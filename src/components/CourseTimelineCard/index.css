@@ -1,0 +1,37 @@
+/* index.css */
+
+.heading-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.duration {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px; /* Add spacing between duration and description */
+}
+
+.clocksize {
+  font-size: 14px; /* Adjust the size as needed */
+}
+
+.description {
+  margin-top: 10px; /* Add spacing between description and tags */
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Adjust the gap between tags */
+  list-style: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+}
+
+.name-container {
+  background-color: #f0f0f0; /* Light grey background */
+  padding: 5px; /* Add padding for better visibility */
+  border-radius: 5px; /* Optional: Add rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Drop shadow */
+}

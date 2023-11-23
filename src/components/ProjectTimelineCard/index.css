@@ -1,0 +1,48 @@
+/* Write your CSS here */
+/* index.css */
+
+.project-container {
+  padding: 20px; /* Add padding around the border */
+  /* Add border for better separation */
+  border-radius: 8px; /* Optional: Add rounded corners */
+  margin: 20px 0; /* Add margin for better spacing */
+}
+
+.image {
+  width: 100%; /* Make the image fill the container width */
+  max-height: 200px; /* Set a maximum height for the image */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  border-radius: 8px; /* Optional: Add rounded corners to the image */
+}
+a {
+  font-weight: bold;
+}
+
+.heading-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px; /* Add spacing between image and heading */
+}
+
+.duration {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px; /* Add spacing between duration and description */
+}
+
+.clocksize {
+  font-size: 14px; /* Adjust the size as needed */
+}
+
+a {
+  color: #007bff; /* Blue color for the link */
+  text-decoration: none; /* Remove underline */
+  display: block; /* Make the link a block element */
+  margin-top: 10px; /* Add spacing between description and link */
+}
+
+a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
